@@ -172,7 +172,7 @@ class ChatbotController extends GetxController {
 
     final response = await http.post(
       Uri.parse(
-        'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCEVFhXUTYiJfPC7WHJ8Puy7DFxd9QwFaQ',
+        '',
       ),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode({
