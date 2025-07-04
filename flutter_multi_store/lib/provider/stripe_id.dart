@@ -1,0 +1,4 @@
+const stripePublishableKey =
+    '';
+const stripeSecretKey =
+    '';
