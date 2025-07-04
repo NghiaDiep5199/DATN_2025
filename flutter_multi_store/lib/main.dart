@@ -29,11 +29,11 @@ void main() async {
       ? await Firebase.initializeApp(
         name: 'flutter-store-app-1c9ac',
         options: FirebaseOptions(
-          apiKey: 'AIzaSyDtK660B6FRifJfcKcqoySSZqzzwQWEkzc',
-          appId: '1:195971740928:android:388f30cd7d0f37a7c3afe5',
-          messagingSenderId: '195971740928',
-          projectId: 'flutter-store-app-1c9ac',
-          storageBucket: 'gs://flutter-store-app-1c9ac.appspot.com',
+          apiKey: '',
+          appId: '',
+          messagingSenderId: '',
+          projectId: '',
+          storageBucket: '',
         ),
       )
       : await Firebase.initializeApp();
