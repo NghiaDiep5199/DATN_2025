@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
-  // final _apiKey = 'AIzaSyCEVFhXUTYiJfPC7WHJ8Puy7DFxd9QwFaQ';
+  // final _apiKey = '';
   final model = GenerativeModel(
     model: 'gemini-2.0-flash',
-    apiKey: 'AIzaSyCEVFhXUTYiJfPC7WHJ8Puy7DFxd9QwFaQ',
+    apiKey: '',
   );
 
   Future<Map<String, dynamic>?> extractFilter(String userInput) async {
